@@ -1,0 +1,12 @@
+{
+  "name": "stock",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "tools": "node scripts/tools.mjs",
+    "onboarding": "bash scripts/onboarding.sh",
+    "setup:ica": "node scripts/ai/setup-ica.mjs setup",
+    "update:ica-key": "node scripts/ai/setup-ica.mjs update-key"
+  }
+}
